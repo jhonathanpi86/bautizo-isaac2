@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Invitación a Bautizo</title>
+    <style>
+        body {
+            background-image: url('https://drive.google.com/uc?id=1vU02buRmRqtIV6mUQlmGSCVsrLAJdGM-');
+            background-size: contain;
+            background-attachment: fixed;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.61);
+            text-align: center;
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+            max-width: 400px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #336699;
+        }
+        button {
+            background-color: #336699;
+            color: white;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #235384;
+        }
+        .church-name, .location-info {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .text-container {
+            background-color: rgba(255, 255, 255, 0.61);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        .button-warning {
+            font-size: 14px;
+            margin-top: 5px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Te invitamos al bautizo de Isaac Pineda Pinilla!</h1>
+        <p>Fecha: 22 de octubre de 2023</p>
+        <p>Hora: 12:00 pm</p>
+
+        <!-- Botón de Ubicación de la Capilla -->
+        <a href="https://maps.app.goo.gl/Po4DhX13WaUBpxdU8" target="_blank"><button>Ubicación de la Capilla</button></a>
+        <p class="button-warning">Presióname para saber la ubicación</p>
+        <!-- Nombre de la Iglesia de San Isidro Labrador -->
+        <p class="church-name">Iglesia de San Isidro Labrador</p>
+
+        <!-- Botón de Lugar de Recepción -->
+        <a href="https://maps.app.goo.gl/tuFDuXAhVGWaXBnk7" target="_blank"><button>Lugar de Recepción</button></a>
+        <p class="button-warning">Presióname para saber la ubicación</p>
+        <!-- Ubicación "En mi casa" -->
+        <p class="location-info">En mi casa</p>
+
+        <!-- Frase adicional antes del botón "Confirmar Asistencia por WhatsApp" -->
+        <div class="text-container">
+            <p>
+                Queridos seres queridos,<br>
+                En el futuro, cuando crezca y empiece a comprender el significado de este día, miraré atrás con gratitud y alegría al momento en que fui bautizado. Sé que este ritual marcará el inicio de mi viaje espiritual y la cercanía con la comunidad de fe que me rodea. Les agradezco por ser testigos de este paso importante en mi vida.<br>
+                Con cariño y esperanza en el futuro,<br>
+                ISAAC
+            </p>
+        </div>
+
+        
+
+        <!-- Botón para Confirmar Asistencia por WhatsApp -->
+        <a href="https://api.whatsapp.com/send?phone=573136910031&text=Confirmo mi asistencia al bautizo de Isaac Pineda Pinilla" target="_blank"><button>Confirmar Asistencia por WhatsApp</button></a>
+    </div>
+</body>
+</html>
